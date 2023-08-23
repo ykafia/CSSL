@@ -1,0 +1,8 @@
+bin/
+.vscode
+obj/
+.ionide/
+.fake
+/.vs
+build/packages/
+*.log
