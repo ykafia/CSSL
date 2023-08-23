@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\submodules\SoftTouch.Spirv\src\SoftTouch.Spirv\SoftTouch.Spirv.csproj" />
+  </ItemGroup>
+
 </Project>
