@@ -1,0 +1,3 @@
+[submodule "submodules/SoftTouch.Spirv"]
+	path = submodules/SoftTouch.Spirv
+	url = https://github.com/ykafia/SoftTouch.Spirv
