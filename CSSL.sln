@@ -5,13 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1DCE4AFF-B97D-47D7-8665-FE912562A508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSL", "src\CSSL\CSSL.csproj", "{173523F2-091D-42E6-A0FE-2DF5B5C43305}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSSL", "src\CSSL\CSSL.csproj", "{173523F2-091D-42E6-A0FE-2DF5B5C43305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSL.Core", "src\CSSL.Core\CSSL.Core.csproj", "{3339DB07-5ABC-46C9-95BA-C18335ADAD26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSSL.Core", "src\CSSL.Core\CSSL.Core.csproj", "{3339DB07-5ABC-46C9-95BA-C18335ADAD26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSL.Experiments", "src\CSSL.Experiments\CSSL.Experiments.csproj", "{190461CA-A87A-41DC-AA50-DEFA9641883A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSSL.Experiments", "src\CSSL.Experiments\CSSL.Experiments.csproj", "{190461CA-A87A-41DC-AA50-DEFA9641883A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSL.Generators", "src\CSSL.Generators\CSSL.Generators.csproj", "{4696460B-2D7F-4161-88E7-E73D9E18F543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSSL.Generators", "src\CSSL.Generators\CSSL.Generators.csproj", "{4696460B-2D7F-4161-88E7-E73D9E18F543}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{904AFCB4-7F0A-4CD9-9C5C-707F6AE2E8DF}"
 EndProject
@@ -19,19 +19,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoftTouch.Spirv", "SoftTouc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{326EAFDF-EC13-4FAB-BDF3-4428003E5298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftTouch.Spirv", "submodules\SoftTouch.Spirv\src\SoftTouch.Spirv\SoftTouch.Spirv.csproj", "{05202278-EF11-4436-8302-C9880E33EC4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftTouch.Spirv", "submodules\SoftTouch.Spirv\src\SoftTouch.Spirv\SoftTouch.Spirv.csproj", "{05202278-EF11-4436-8302-C9880E33EC4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftTouch.Spirv.Core", "submodules\SoftTouch.Spirv\src\SoftTouch.Spirv.Core\SoftTouch.Spirv.Core.csproj", "{F193CD84-3097-4AFB-8F0B-91E678D098B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftTouch.Spirv.Core", "submodules\SoftTouch.Spirv\src\SoftTouch.Spirv.Core\SoftTouch.Spirv.Core.csproj", "{F193CD84-3097-4AFB-8F0B-91E678D098B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftTouch.Spirv.Generators", "submodules\SoftTouch.Spirv\src\SoftTouch.Spirv.Generators\SoftTouch.Spirv.Generators.csproj", "{76BB3F86-B964-4F0B-B3A6-24FF7C423BAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftTouch.Spirv.Generators", "submodules\SoftTouch.Spirv\src\SoftTouch.Spirv.Generators\SoftTouch.Spirv.Generators.csproj", "{76BB3F86-B964-4F0B-B3A6-24FF7C423BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{173523F2-091D-42E6-A0FE-2DF5B5C43305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -62,6 +59,9 @@ Global
 		{76BB3F86-B964-4F0B-B3A6-24FF7C423BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76BB3F86-B964-4F0B-B3A6-24FF7C423BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76BB3F86-B964-4F0B-B3A6-24FF7C423BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{173523F2-091D-42E6-A0FE-2DF5B5C43305} = {1DCE4AFF-B97D-47D7-8665-FE912562A508}
