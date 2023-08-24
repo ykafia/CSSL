@@ -2,5 +2,4 @@
 
 using CSSL.Experiments;
 
-var hello = new HelloWorld();
 Console.WriteLine("Hello, World!");

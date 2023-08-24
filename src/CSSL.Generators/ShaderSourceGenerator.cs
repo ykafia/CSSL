@@ -10,7 +10,7 @@ namespace CSSL.Generators
         public void Execute(GeneratorExecutionContext context)
         {
             // Code generation goes here
-            context.AddSource("MyClass.g.cs", "namespace SoftTouch.Experiments{ public record class HelloWorld(); }");
+            context.AddSource("MyClass.g.cs", "namespace CSSL.Experiments{ public record class HelloWorld(); }");
         }
 
         public void Initialize(GeneratorInitializationContext context)
